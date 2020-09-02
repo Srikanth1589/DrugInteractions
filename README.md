@@ -1,4 +1,4 @@
-#Instructions to run the program
+# Instructions to run the program
 
 1. The jar file (`DrugInteraction-1-SNAPSHOT-jar-with-dependencies.jar`) is in `target` folder. This is a maven project
 2. Run the jar file like this `java -jar DrugInteraction-1-SNAPSHOT-jar-with-dependencies.jar`
