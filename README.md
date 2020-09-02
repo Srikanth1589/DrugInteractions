@@ -1,26 +1,25 @@
 # Instructions to run the program
 
-1. The jar file (`DrugInteraction-1-SNAPSHOT-jar-with-dependencies.jar`) is in `target` folder. This is a maven project
-2. Run the jar file like this `java -jar DrugInteraction-1-SNAPSHOT-jar-with-dependencies.jar`
-3. It is going to give below information and asks you to enter the drugs names on each line
+1. Run the main file in `src/com.drug.interaction` -> `DrugDrugInteraction.java`
+2. It is going to give below information and asks you to enter the drugs names on each line
 
 ```
  Read full data from json file with 152 interactions
 
  Start typing. Pressing Return key will consider as a new line. When you are done entering drugs data, press Return key twice.
 ```
-4. Enter the drug names on each line. You can enter in multiple lines like this
+3. Enter the drug names on each line. You can enter in multiple lines like this
 
 ```
 sildenafil tamsulosin valaciclovir
 sildenafil ibuprofen
 valaciclovir doxepin ticlopidine ibuprofen
 ```
-5. After you are done entering the drugs list just press double enter and it will process your input
-6. If you have entered more than 20 drugs in a single sentence it will break from taking input and process already entered input (if any)
-7. If you have entered more than 10000 lines, it will break from taking input and process already entered input
-8. I have added commands easily to follow when you run the main function
-9. I will attach a screenshot with my processed information and output
+4. After you are done entering the drugs list just press double enter and it will process your input
+5. If you have entered more than 20 drugs in a single sentence it will break from taking input and process already entered input (if any)
+6. If you have entered more than 10000 lines, it will break from taking input and process already entered input
+7. I have added commands easily to follow when you run the main function
+8. I will attach a screenshot with my processed information and output
 
 #### This program mainly solves these goals:
 1. If there are multiple interactions detected for a single line of input, the program should return the most
